@@ -10,20 +10,65 @@ img {
 
 article {
 	background-color: #FFFFFF;
-	border: 0.25rem solid #607D8B;
+	border: 0.05rem solid #607D8B;
 	width: 80%;
+	height: 25%;
 	display: block;
 	margin: 1rem auto;
-	padding: 1.5rem;
+	padding: 0.25rem 0.75rem 1.5rem;
 	position: relative;
 
 }
 
-h2 {
+h3 {
 	font-weight: 700;
 	color: #455A64;
 	margin: 0;
 }
+
+article button {
+	color: #455A64;
+	border-top: #FFFFFF;
+	border-right: #FFFFFF;
+	border-bottom: solid #F2F4F4 0.05rem;
+	border-left: #FFFFFF;
+	padding: 0.15rem 0.35rem;
+/*	position: absolute;
+	bottom: 0.25rem;
+*/}
+
+a:link {
+	color: #607D8B;
+	text-decoration: underline #F2F4F4;
+	position: absolute;
+	top: 0.7rem;
+}
+
+a:hover {
+	font-weight: 800;
+	text-decoration: underline #FFC107;
+}
+
+a:visited {
+	text-decoration: #CFD8DC;
+}
+
+article:visited {
+	background-color: #F2F4F4;
+}
+
+/*NEED HELP*/
+
+/*article button:visited {
+	font-weight: 800;
+	color: #F05A28;
+}*/
+
+article button:hover {
+	font-weight: 800;
+	text-decoration: underline #FFC107;
+}
+
 
 
 .title-search {
@@ -39,32 +84,23 @@ h2 {
 }
 
 .link-border {
-	border-top: solid #CFD8DC 1px;
+	border-top: solid #CFD8DC 0.05rem;
 	border-right: #FFFFFF;
-	border-bottom: solid #CFD8DC 1px;
+	border-bottom: solid #CFD8DC 0.05rem;
 	border-left: #FFFFFF;
+	position: relative;
+	height: 2.75rem;
+	margin: 0.25rem;
 }
 
 .read-button {
-	color: #455A64;
-	border-top: #FFFFFF;
-	border-right: #FFFFFF;
-	border-bottom: #F2F4F4;
-	border-left: #FFFFFF;
-	position: absolute;
-	bottom: 0.25rem;
-	left: 0.25rem;
+	/*left: 0.25rem;*/
+	float: left;
 }
 
 .delete-button {
-	color: #455A64;
-	border-top: #FFFFFF;
-	border-right: #FFFFFF;
-	border-bottom: #F2F4F4;
-	border-left: #FFFFFF;
-	position: absolute;
-	bottom: 0.25rem;
-	right: 0.25rem;
+	/*right: 0.25rem;*/
+	float: right;
 }
 
 
